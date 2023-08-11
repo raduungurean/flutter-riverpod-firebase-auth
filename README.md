@@ -43,3 +43,11 @@ To ensure that Firebase Storage operates correctly with web applications, you ne
 ``gsutil cors set cors.json [firebase_storage_bucket_name]``
 
 Replace `[firebase_storage_bucket_name]` with your Firebase Storage bucket's name when executing the command.
+
+**Screenshots**:
+
+![Screenshot 1](./screenshots/s1.png)
+![Screenshot 2](./screenshots/s2.png)
+![Screenshot 3](./screenshots/s3.png)
+![Screenshot 4](./screenshots/s4.png)
+![Screenshot 5](./screenshots/s5.png)
