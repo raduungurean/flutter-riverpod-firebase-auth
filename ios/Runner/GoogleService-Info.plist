@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>675126715528-75k2isgq2ojd24fq9dcdm9sb1mf3288k.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.675126715528-75k2isgq2ojd24fq9dcdm9sb1mf3288k</string>
+	<key>API_KEY</key>
+	<string>AIzaSyAGaqcw7tb5mSGUwBuPNILghM3vFCc5--Y</string>
+	<key>GCM_SENDER_ID</key>
+	<string>675126715528</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.example.flaviusapp</string>
+	<key>PROJECT_ID</key>
+	<string>flv-app</string>
+	<key>STORAGE_BUCKET</key>
+	<string>flv-app.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:675126715528:ios:8006bdfe729b4d666beb3d</string>
+</dict>
+</plist>

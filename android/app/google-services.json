@@ -1,0 +1,54 @@
+{
+  "project_info": {
+    "project_number": "675126715528",
+    "project_id": "flv-app",
+    "storage_bucket": "flv-app.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:675126715528:android:398b0188db2199ee6beb3d",
+        "android_client_info": {
+          "package_name": "com.example.flaviusapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "675126715528-8eec0jbvk4fngcfqji2tr7b9pg2kd7nr.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.flaviusapp",
+            "certificate_hash": "3afb048d9dda8002ec193f45e10e6221410b6e3c"
+          }
+        },
+        {
+          "client_id": "675126715528-4bobe24m3souu58er4gvq2ludu7uhc2g.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBOJ3BtsSSK9Eap3RDBawtj4TgtHBAUF28"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "675126715528-4bobe24m3souu58er4gvq2ludu7uhc2g.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "675126715528-75k2isgq2ojd24fq9dcdm9sb1mf3288k.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.flaviusapp"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
