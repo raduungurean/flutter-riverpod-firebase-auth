@@ -3,7 +3,6 @@ import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:google_fonts/google_fonts.dart';
 import 'package:spendbuddy/app/app_router.dart';
-import 'package:spendbuddy/features/auth/presentation/auth_controller.dart';
 import 'package:spendbuddy/shared/providers/theme_provider.dart';
 import 'package:spendbuddy/shared/utils/helpers.dart';
 import 'package:spendbuddy/widgets/SpinLoader.dart';

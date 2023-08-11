@@ -1,4 +1,5 @@
 import 'dart:io';
+import 'dart:math' as math;
 
 import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
@@ -50,8 +51,20 @@ class _ProfileFormState extends ConsumerState<ProfileForm> {
   }
 
   Future<void> _pickAndUploadImage() async {
-    final pickedFile =
-        await ImagePicker().pickImage(source: ImageSource.gallery);
+    final screenWidth = MediaQuery.of(context).size.width;
+    final screenHeight = MediaQuery.of(context).size.height;
+
+    // Find the smaller dimension between width and height.
+    final minDimension = math.min(screenWidth, screenHeight);
+
+    final boundarySize =
+        (minDimension * 0.7).toInt(); // Using 80% of the smaller dimension
+    final viewPortSize =
+        (minDimension * 0.6).toInt(); // Using 70% of the smaller dimension
+
+    final pickedFile = await ImagePicker().pickImage(
+      source: ImageSource.gallery,
+    );
     if (pickedFile != null) {
       final croppedFile = await ImageCropper().cropImage(
         sourcePath: pickedFile.path,
@@ -74,13 +87,13 @@ class _ProfileFormState extends ConsumerState<ProfileForm> {
           WebUiSettings(
             context: context,
             presentStyle: CropperPresentStyle.dialog,
-            boundary: const CroppieBoundary(
-              width: 520,
-              height: 520,
+            boundary: CroppieBoundary(
+              width: boundarySize,
+              height: boundarySize,
             ),
-            viewPort: const CroppieViewPort(
-              width: 480,
-              height: 480,
+            viewPort: CroppieViewPort(
+              width: viewPortSize,
+              height: viewPortSize,
               type: 'circle',
             ),
             enableExif: true,
